@@ -82,7 +82,6 @@ function displayTabHeader() {
 }
 
 
-
 //Displaying each store data across the table.
 
 function displayTotalSale(store) {
