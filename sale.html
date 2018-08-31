@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title> PCS Admin Dashboard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="cookie.css" />
+    
+</head>
+<body>
+    <!--Header-Main menu starts here-->
+    <div class="header-container">
+        <div class="header-content">
+                <div class="pcs"><a href="index.html">Pat's Cookies</a></div>
+
+        <ul>
+            <li><a href="#" >Home</a></li>
+            <li><a href="#">Our Story</a></li>
+            <li><a href="#">Locations</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="index.html" class="active">logout</a></li>
+        </ul>
+    </div>
+    </div>
+    <!--Header-Main menu ends here-->
+    <div class="space"></div>
+    <!--Form starts here-->
+        <div class="form-container">
+                
+            <form id="store-form">
+                <div class="left">
+                    <input required placeholder="Add New Product" name="storeName"/>
+                    
+                    <select>
+                        <option>Sales By Location (Not Active)</option>
+                        <option>Gaithersburg</option>
+                        <option>Rockville</option>
+                        <option>Bethesda</option>
+                    </select>
+                </div>
+
+                <div class="right">
+                    <input required placeholder="Enter Cookies Per Customer" type="number" name="salePerHour"/>
+                    <button id="submitButton" class="sub-btn" type="submit">Add New Product</button>
+                </div>    
+            </form>
+            </div>
+            <!--Form ends here-->
+<div class="tab-container">
+    <h2>Store Name (If Active)</h2>
+    <hr>
+    <!-- dynamic table built in javascribe goes here -->
+    <table id="data-table" class="tab-style"></table>
+</div>
+
+
+</body>
+<!--admin login script file-->
+<script src="adminLogin.js"></script>
+<!--Form and table script file-->
+<script src="cookie.js"></script>
+</html>
