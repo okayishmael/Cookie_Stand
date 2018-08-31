@@ -1,36 +1,10 @@
+
 /*
-Font
-Buttons
-Background
-links
-hover
-*/
-
-
-/*=======FONT STYLE==================*/
-
-.lg-dark-gray {}
-.md-dark-gray {}
-.sm-dark-gray {}
-.xs-dark-gray {}
-
-
-/*========BUTTON STYLES================*/
-
-.btn-lg-dark-gray {}
-.btn-md-dark-gray {}
-.btn-sm-dark-gray {}
-.btn-xs-dark-gray {}
-
-.btn-lg-dark-red {}
-.btn-md-dark-red {}
-.btn-sm-dark-red {}
-.btn-xs-dark-red {}
-
-.btn-lg-dark-gold {}
-.btn-md-dark-gold {}
-.btn-sm-dark-gold {}
-.btn-xs-dark-gold {}
+  student: Ishmael Sunday | http://ishmaelsunday.com
+  Course: Code 201: Software Development and Application Foundatmental 
+  Schoool: Code Partners | https://codepartners.net 
+  Project: Object Oriented Model for a Cookie Store
+  */
 
 * {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -96,8 +70,8 @@ li a:hover{
 /*=======Style for Home page begins====*/
 
 .banner {
-    height: 700px;
-    background: url('../assets/pcs3.jpg');
+    height: 725px;
+    background: url('./assets/pcs3.jpg');
        
 }
 
@@ -131,12 +105,13 @@ li a:hover{
     border-radius: 5px;
     float: left;
     margin-top: 40px;
-    margin-left: 60px;
+    margin-left: 20px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, .5);
     
 }
 
 .share:hover {
-    background-color: #f87676;
+    background-color: #ad2020;
 }
 /*=======Style for Home page Ends====*/
 
@@ -228,3 +203,5 @@ tr:hover {
 }
 
 /*=======Style for Sales page Ends====*/
+
+

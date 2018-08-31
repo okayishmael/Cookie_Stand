@@ -83,8 +83,6 @@ function displayTabHeader() {
 
 
 
-
-
 //Displaying each store data across the table.
 
 function displayTotalSale(store) {
@@ -134,10 +132,6 @@ function displayTotalSale(store) {
   dailyTotalTable.innerHTML = store.totalSalePerDay; // the numbers are in.
 
 }
-
-
-
-
 
 
 
@@ -236,16 +230,10 @@ function createNewStore(event){
 }
 
 
-
-
 //add event listner to form
 
 storeForm.addEventListener('submit', createNewStore);
 console.log(storeForm.storeName)
-
-
-
-
 
 
 //function that will pupulate initial table
@@ -265,6 +253,5 @@ function populateTab() {
 
 // this will display all our initial table on when page loads
 populateTab();
-
 
 
