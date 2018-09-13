@@ -140,24 +140,24 @@ li a:hover{
 }
 
 input {
-    width: 350px;
+    width: 50%;
     min-height: 25px;
     padding: 4px;
 
 }
 
 select {
-    width: 350px;
+    width: 40%;
     min-height: 25px;
     padding: 7px;
     float: right;
-    margin-right: 70px;
+    margin-right: 6%;
     pointer-events: none;
     
 }
 
 .sub-btn {
-    width: 200px;
+    width: 40%;
     height: 37px;
     background-color: #111111;
     color: white;
