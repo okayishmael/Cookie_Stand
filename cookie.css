@@ -1,3 +1,5 @@
+
+
 /*
   student: Ishmael Sunday | http://ishmaelsunday.com
   Course: Code 201: Software Development and Application Foundatmental 
@@ -69,7 +71,7 @@ li a:hover{
 /*=======Style for Home page begins====*/
 
 .banner {
-    height: 700px;
+    height: 725px;
     background: url('./assets/pcs3.jpg');
        
 }
@@ -104,12 +106,13 @@ li a:hover{
     border-radius: 5px;
     float: left;
     margin-top: 40px;
-    margin-left: 60px;
+    margin-left: 20px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, .5);
     
 }
 
 .share:hover {
-    background-color: #f87676;
+    background-color: #ad2020;
 }
 /*=======Style for Home page Ends====*/
 
@@ -138,24 +141,24 @@ li a:hover{
 }
 
 input {
-    width: 350px;
+    width: 50%;
     min-height: 25px;
     padding: 4px;
 
 }
 
 select {
-    width: 350px;
+    width: 40%;
     min-height: 25px;
     padding: 7px;
     float: right;
-    margin-right: 70px;
+    margin-right: 6%;
     pointer-events: none;
     
 }
 
 .sub-btn {
-    width: 200px;
+    width: 40%;
     height: 37px;
     background-color: #111111;
     color: white;
@@ -201,3 +204,5 @@ tr:hover {
 }
 
 /*=======Style for Sales page Ends====*/
+
+

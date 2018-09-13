@@ -1,22 +1,26 @@
 
-//login
+//Warning: never use this for real world activities.
 
-
-
-
+//login function
 let username = function() {
-    let usernameAnswer = 'PCSadmin'; // Correct/Expected Answer
-    let username = prompt("Demo Username: PCSadmin");// prompt, input require
+    let correctUsername = 'PCSadmin'; // Correct/Expected Answer
+    let username = prompt("Demo Username: PCSadmin");// get user ID
     
-    if(username === usernameAnswer) {
+    //verify ID inputted 
+    if(username === correctUsername) {
+        //If correct, ask for password
+        //if not run the code in line 26
         let password =function() {
-            let passwordAnswer = 'Code201'; // Correct/Expected Answer
-            let password = prompt('Demo Password: Code201'); // declare var confirm to collect user input
+            let correctPassword = 'Code201'; // Correct/Expected Answer
+            let password = prompt('Demo Password: Code201'); // get user password
             
-            if(password === passwordAnswer) {
+            //verify password inputted
+            if(password === correctPassword) {
+                //if correct welcome user
+                //If not run the code in line 22
                 alert('Welcome ' + username); //If yes, show user this
             } else{
-                alert(' Wron Password. Refresh page to try again');//if no, show user this     
+                alert(' Wrong Password. Refresh page to try again');//if no, show user this     
             }
             };
             password()
@@ -24,4 +28,5 @@ let username = function() {
         alert('Wrong Username. Refresh page to try again');//if no, show user this     
     }
     };
-    username()
+    username();
+    
